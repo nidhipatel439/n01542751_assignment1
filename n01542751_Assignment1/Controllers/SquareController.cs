@@ -12,7 +12,7 @@ namespace n01542751_Assignment1.Controllers
         //GET api/Square/id
         public int Get(int id)
         {
-            var multiplication = id * id;
+            int multiplication = id * id;
             return multiplication;
         }
     }

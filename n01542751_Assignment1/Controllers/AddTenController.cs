@@ -12,7 +12,7 @@ namespace n01542751_Assignment1.Controllers
         //GET api/AddTen/id
         public int Get(int id)
         {
-            var addition = id + 10;
+            int addition = id + 10;
             return addition;
         }
     }

@@ -12,13 +12,15 @@ namespace n01542751_Assignment1.Controllers
         //POST api/Greeting
         public string Post()
         {
-            return "Hello World!";
+            string greeting = "Hello World!";
+            return greeting;
         }
 
         //GET api/Greeting/id
         public string Get(int id)
         {
-            return $"Greetings to {id} people!";
+            string response = $"Greetings to {id} people!";
+            return response;
         }
     }
 }

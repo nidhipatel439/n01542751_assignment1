@@ -12,10 +12,10 @@ namespace n01542751_Assignment1.Controllers
         //GET api/NumberMachine/id
         public int Get(int id)
         {
-            var add = id + 2;
-            var sub = add-3;
-            var multi = sub * 5;
-            var div= multi / 5;
+            int add = id + 2;
+            int sub = add-3;
+            int multi = sub * 5;
+            int div= multi / 5;
             return div;
         } 
 
